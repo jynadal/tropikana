@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'frontend';
+  title = 'Tropikana';
+  bgColor = 'red';
+  show = false;
+  changeStatus(){
+    this.show = !this.show;
+  }
 }
