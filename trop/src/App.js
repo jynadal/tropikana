@@ -8,6 +8,7 @@ import { fetchData } from './api';
 class App extends React.Component {
     state = {
         data: {},
+        country:'',
         
     }
 
@@ -15,6 +16,10 @@ class App extends React.Component {
         const fetchedData = await fetchData();
 
         this.setState({data: fetchedData});
+    }
+
+    handleCountryChange = async (country) => {
+        console.log(country);
     }
 
     render() {
