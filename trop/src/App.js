@@ -8,7 +8,7 @@ import { fetchData } from './api';
 class App extends React.Component {
     state = {
         data: {},
-        country:'',
+        country: '',
         
     }
 
@@ -28,7 +28,7 @@ class App extends React.Component {
         return (
             <div className={styles.container}>
                 <Cards data= {data} />
-                <CountryPicker />
+                <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart />                
             </div>
         )
