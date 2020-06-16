@@ -25,4 +25,3 @@ function GeoChart ({ data, property }) {
 }
 
 export default GeoChart;
-
