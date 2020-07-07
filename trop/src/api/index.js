@@ -18,6 +18,24 @@ export const fetchData = async (country) => {
         console.log(error);        
     }
 }
+//For Each Country pour avoir ladata de chaque pays
+// export const fetchData = async (country) => {
+//     let changeableUrl = url;
+
+//     forEach(countries as country) {
+//         changeableUrl = `${url}/countries/${country}`
+//     }
+
+//     try {
+//         const { dataFE: { confirmed, recovered, deaths, lastUpdate } }= await axios.get(changeableUrl);
+
+//         return { confirmedFE, recoveredFE, deathsFE, lastUpdateFE };      
+
+//     } catch (error) {
+//         console.log(error);        
+//     }
+// }
+//End try
 
 export const fetchDailyData = async ()=> {
     try {
