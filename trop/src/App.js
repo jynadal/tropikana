@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Cards, Chart, CountryPicker, MapChart } from './components';
+import { Header, BlogHLight, WorldNews, WorldTravels, WorldSomethings, Footer, Cards, Chart, CountryPicker, MapChart } from './components';
 import styles from './App.module.css';
 import { fetchData } from './api';
 
@@ -32,11 +32,20 @@ class App extends React.Component {
         return (
             <div className={styles.container}>
                 <img className={styles.image} src={coronaImage} alt="COVID-19" />
-                
+                <Header />
+                <BlogHLight />
+                <WorldNews />
+                <WorldTravels />
+                <WorldSomethings />
+
                 <Cards data= {data} />
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country={country} /> 
-                <MapChart />               
+                <MapChart /> 
+
+                < Footer />
+                
+                          
             </div>
         )
     }
