@@ -1,0 +1,190 @@
+/*=====World News Section Start====*/
+.blog_topheading_slider_nav {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    padding-top: 8px;
+}
+.blog_world_news_slider {
+    display: flex;
+    width: 100%;
+    padding: 20px 0 40px;
+    position: relative;
+}
+.blog_world_news_slider .swiper-container {
+    overflow: visible;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog_world_news_slider .swiper-slide {
+      height: auto;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+}
+.blog_topheading_slider_nav .swiper-container .swiper-button-next, .blog_topheading_slider_nav .swiper-container .swiper-button-prev {
+    top: -65px;
+    background-image: none;
+    left: auto;
+    right: 40px;
+    width: 8px;
+    height: 13px;
+    margin: 0;
+}
+.blog_topheading_slider_nav .swiper-container .swiper-button-prev {
+    left: auto;
+    right: 55px;
+}
+.blog_topheading_slider_nav .swiper-container .swiper-button-next svg, .blog_topheading_slider_nav .swiper-container .swiper-button-prev svg {
+    display: flex;
+}
+.blog_topheading_slider_nav .blog_world_news_slider .swiper-container .worldnews-swiper-button-next:hover svg path, .blog_topheading_slider_nav .blog_world_news_slider .swiper-container .worldnews-swiper-button-prev:hover svg path{
+	fill:#fa9324;
+}
+.blog_col_8 {
+    flex: 66.66%;
+    margin-right: 20px;
+}
+.blog_world_news_slider .blog_col_8{
+    flex: calc(100% - 282px);
+}
+.blog_world_news_slider .blog_col_4{
+    flex: 282px;
+    margin-right: 20px;
+}
+.blog_world_news_slider .swiper-slide:nth-child(odd) .blog_col_4 {
+    margin-right: 0;
+}
+
+.blog_world_news_slider .swiper-slide:nth-child(even) .blog_col_4:last-child {
+    margin-right: 0;
+	
+}
+.blog_topheading_slider_nav .blog_world_news_slider .worldnews-swiper-button-next, .blog_topheading_slider_nav .blog_world_news_slider .worldnews-swiper-button-prev {
+    top: -55px;
+    background-image: none;
+    left: auto;
+    right: 40px;
+    width: 8px;
+    height: 13px;
+    margin: 0;
+    position: absolute;
+    cursor: pointer;
+	backface-visibility: hidden;
+}
+.blog_topheading_slider_nav .blog_world_news_slider .worldnews-swiper-button-next svg, .blog_topheading_slider_nav .blog_world_news_slider .worldnews-swiper-button-prev svg{
+	display:flex;
+}
+.blog_topheading_slider_nav .blog_world_news_slider .worldnews-swiper-button-prev {
+    right: 55px;
+}
+.blog_topheading_slider_nav .blog_world_news_slider .swiper-button-disabled {
+    opacity: 0.35;
+    cursor: auto;
+    pointer-events: none;
+}
+.blog_world_news_slider .large_post .blog_post_slider_wrapper .blog_post_slider_content{
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    padding: 0px 20px;
+}
+.blog_world_news_slider .blog_post_slider_wrapper .blog_post_slider_content {
+    bottom: 20px;
+    width: calc(100% - 30px);
+    left: 20px;
+}
+.blog_world_news_slider .blog_post_slider_wrapper .blog_post_slider_content h2 {
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 600;
+}
+.blog_world_news_slider .large_post .blog_post_slider_wrapper .blog_post_slider_content h2{
+    font-size: 18px;	
+    line-height: 27px;
+}
+/*.blog_world_news_slider .large_post .blog_post_slider_wrapper .blog_post_slider_content h2 a:hover, .blog_world_news_slider .blog_post_slider_wrapper .blog_post_slider_content h2 a:hover {
+    color: #fa9324;
+}*/
+.blog_world_news_slider .blog_post_slider_wrapper .blog_post_slider_content ul.blog_meta_tags a, .blog_world_news_slider .blog_post_slider_wrapper .blog_post_slider_content .blog_author_data a {
+    color: #fff;
+}
+.blog_world_news_slider .blog_post_slider_wrapper .blog_post_slider_content ul.blog_meta_tags li{
+	margin-right:10px;
+}
+.blog_world_news_slider .blog_post_slider_wrapper .blog_post_slider_content ul.blog_meta_tags li:last-child{
+	margin-right:0px;
+}
+.blog_world_news_slider .large_post .blog_post_slider_wrapper .blog_post_slider_content ul.blog_meta_tags li{
+	margin-right:10px;
+}
+.blog_world_news_slider .blog_post_slider_wrapper .blog_post_slider_img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.blog_post_slider_wrapper:hover .blog_post_slider_img:after {
+    -webkit-box-shadow: 0 0 10px 300px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 0 0 10px 300px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 0 10px 300px rgba(0, 0, 0, 0.5) inset;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    background: transparent;
+    background-image: none;
+}
+.blog_topheading_slider_nav .tab-content .fade:not(.show){
+    visibility:hidden;
+	opacity:0;
+}
+.blog_topheading_slider_nav .tab-content>.fade {
+    visibility:visible;
+
+}
+/* .blog_topheading_slider_nav .tab-content .swiper-slide, .tab-content .swiper-wrapper { */
+    /* height: auto; */
+/* } */
+.blog_topheading_slider_nav nav {
+    float: right;
+    width: 75%;
+    text-align: right;
+    padding-right: 10px;
+}
+.blog_topheading_slider_nav nav a {
+    color: #222222; 
+    padding: 0px 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+.blog_main_heading_div nav.blog_tab_nav.blog_color_orange a:hover,.blog_main_heading_div nav.blog_tab_nav.blog_color_orange a.active{
+	color:#fa9324;
+}
+.tab_toggle_menu {
+    display: none;
+}
+/*===Wold News Section End===*/
