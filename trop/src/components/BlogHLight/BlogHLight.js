@@ -5,10 +5,11 @@ import BlogSwiper from "./BlogSwiper";
 function BlogHLight() {
 
     return (
-    <div class="blog_banner_slider wrapper">
-        <p>Here BlogHlight</p>
+    <div className="blog_banner_slider wrapper">
+
             <BlogSlider />
-            <BlogSwiper />
+            {/* <BlogSwiper /> */}
+    
 
 	</div>
     )

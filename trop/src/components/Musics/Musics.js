@@ -1,6 +1,6 @@
 import React from "react";
 
-function WorldTravels() {
+function Musics() {
 
     return (
         <div className="blog_fullwidth_multislide_slider">
@@ -189,7 +189,8 @@ function WorldTravels() {
 			</div>
 		</div>				
 	</div>
+
     )
     
 }
-export default WorldTravels;
+export default Musics;

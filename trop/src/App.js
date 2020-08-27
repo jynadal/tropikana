@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { Header, BlogHLight, WorldNews, WorldTravels, WorldSomethings, Footer, Cards, Chart, CountryPicker, MapChart } from './components';
+import { Header, BlogHLight, WorldNews, Entertainments, Musics, FoodHealth, Sports, WorldTravels, SocialMedias, Footer, Cards, Chart, CountryPicker } from './components';
 import styles from './App.module.css';
+import './AppStyles.css';
 import { fetchData } from './api';
 
 import coronaImage from './images/covidtracker2.png';
@@ -31,17 +32,37 @@ class App extends React.Component {
         
         return (
             <div className={styles.container}>
-                <img className={styles.image} src={coronaImage} alt="COVID-19" />
+                {/* <img className={styles.image} src={coronaImage} alt="COVID-19" /> */}
                 <Header />
+
                 <BlogHLight />
+
                 <WorldNews />
                 <WorldTravels />
-                <WorldSomethings />
+                <Musics />
+                
+
+                <div className="blog_main_wrapper blog_bottompadder40">
+		            <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                             {/* <FoodHealth /> */}
+                            <Entertainments />
+                            <Sports />
+
+                            </div>
+                        </div>
+		            </div>
+	            </div>
+
+                <SocialMedias />  
+
+
 
                 <Cards data= {data} />
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country={country} /> 
-                <MapChart /> 
 
                 < Footer />
                 
