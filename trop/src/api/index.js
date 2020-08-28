@@ -4,11 +4,23 @@ import React, {useState, useEffect } from 'react';
 import axios from 'axios';
 
 
-const urlMeteo = '';
+const urlIpify= 'https://api.ipify.org?format=json';
 
 
-export const fetchMeteo = async (town) => {
-    
+export const fetchMeteo = async () => {
+
+    const ip = await fetch('https://api.ipify.org?format=json')
+    .then(resultat => resultat.json())
+    .then(data => data.ip)
+
+    const ville = await fetch('http://freegeoip.net/json/' + ip)
+    .then(resultat => resultat.json())
+    .then(data =data.city)
+
+    const meteo = await fetch(``)
+        .then(resultat => resultat.json())
+        .tehn(data => data)
+
 }
 
 
@@ -30,24 +42,6 @@ export const fetchData = async (country) => {
         console.log(error);        
     }
 }
-//For Each Country pour avoir ladata de chaque pays
-// export const fetchData = async (country) => {
-//     let changeableUrl = url;
-
-//     forEach(countries as country) {
-//         changeableUrl = `${url}/countries/${country}`
-//     }
-
-//     try {
-//         const { dataFE: { confirmed, recovered, deaths, lastUpdate } }= await axios.get(changeableUrl);
-
-//         return { confirmedFE, recoveredFE, deathsFE, lastUpdateFE };      
-
-//     } catch (error) {
-//         console.log(error);        
-//     }
-// }
-//End try
 
 export const fetchDailyData = async ()=> {
     try {
