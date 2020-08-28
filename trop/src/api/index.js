@@ -15,11 +15,11 @@ export const fetchMeteo = async () => {
 
     const ville = await fetch('http://freegeoip.net/json/' + ip)
     .then(resultat => resultat.json())
-    .then(data =data.city)
+    .then(data => data.city)
 
-    const meteo = await fetch(``)
+    const meteo = await fetch(`api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}`)
         .then(resultat => resultat.json())
-        .tehn(data => data)
+        .then(data => data)
 
 }
 
