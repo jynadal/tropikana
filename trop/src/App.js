@@ -48,10 +48,18 @@ const App = ({handleCountryChange}) => {
 
                 <BlogHLight />
 
-                <WorldNews />
-                <WorldTravels />
-                <Musics />
-                
+                <div className="blog_main_wrapper blog_toppadder60">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <WorldNews />
+                            <WorldTravels />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <Musics />        
 
                 <div className="blog_main_wrapper blog_bottompadder40">
 		            <div className="container">

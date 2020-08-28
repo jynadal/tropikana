@@ -1,5 +1,16 @@
 import React, {useState, useEffect } from 'react';
+
+
 import axios from 'axios';
+
+
+const urlMeteo = '';
+
+
+export const fetchMeteo = async (town) => {
+    
+}
+
 
 const url =  'https://covid19.mathdro.id/api';
 

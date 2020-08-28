@@ -56,7 +56,8 @@ function BlogSwiper() {
 					</div>
 				</div>
 				
-				<div className="swiper-slide">
+				<div>
+				{/* <div className="swiper-slide">
 					<div className="blog_post_slider_wrapper"> 
 						<div className="blog_post_slider_img"> 
 							<img src="https://via.placeholder.com/440x245" alt="" /> 
@@ -173,8 +174,8 @@ function BlogSwiper() {
 							</ul> 
 						</div> 
 					</div>
+				</div>	 */}
 				</div>
-				
 
 			</div>
 		</div>

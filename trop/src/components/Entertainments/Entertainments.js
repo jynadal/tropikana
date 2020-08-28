@@ -37,13 +37,14 @@ function Entertainments() {
 							<div className="tab-pane fade show active tabslider wow fadeInUp" id="nav-technologyall" role="tabpanel">
 								<div className="blog_technology_style2">
 									<div className="blog_row">
+
 										<div className="blog_bigbox">
 											<div className="blog_post_style2">
 												<div className="blog_post_style2_img">
 													<img src="https://via.placeholder.com/250x220" className="img-fluid" alt="" />
 												</div>
 												<div className="blog_post_style2_content">
-													<h3><a href="blog_single_fullwidth.html">What should you take in your bag before going.</a></h3>
+													<h3><a href="blog_single_fullwidth.html">What 11111 should you take in your bag before going.</a></h3>
 													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  incididunt ut labore et dolore magna aliqua.</p>
 													<div className="blog_author_data"><a href="#"><img src="https://via.placeholder.com/34x34" className="img-fluid" alt="" width="34" height="34" /> John Doe</a></div> 
 													<ul className="blog_meta_tags">
@@ -69,7 +70,7 @@ function Entertainments() {
 												</div>
 											</div>
 										</div>
-									</div>
+									</div>									
 									<div className="blog_row">
 										<div className="blog_bigbox">
 											<div className="blog_post_style2">
@@ -104,6 +105,8 @@ function Entertainments() {
 											</div>
 										</div>
 									</div>
+
+
 									<div className="blog_row">
 										<div className="blog_bigbox">
 											<div className="blog_post_style2">
@@ -127,7 +130,7 @@ function Entertainments() {
 													<img src="https://via.placeholder.com/250x220" className="img-fluid" alt="" />
 												</div>
 												<div className="blog_post_style2_content">
-													<h3><a href="blog_single_fullwidth.html">What should you take in your bag before going.</a></h3>
+													<h3><a href="blog_single_fullwidth.html">What 6666 should you take in your bag before going.</a></h3>
 													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  incididunt ut labore et dolore magna aliqua.</p>
 													<div className="blog_author_data"><a href="#"><img src="https://via.placeholder.com/34x34" className="img-fluid" alt="" width="34" height="34" /> John Doe</a></div> 
 													<ul className="blog_meta_tags">
@@ -140,8 +143,10 @@ function Entertainments() {
 									</div>
 								</div>
 							</div>
+
 							<div className="tab-pane fade tabslider" id="technology1" role="tabpanel">
-								<div className="blog_technology_style2">
+								
+								{/* <div className="blog_technology_style2">
 									<div className="blog_row">
 										<div className="blog_bigbox">
 											<div className="blog_post_style2">
@@ -243,11 +248,14 @@ function Entertainments() {
 												</div>
 											</div>
 										</div>
-									</div>
-								</div>
+									</div>								
+								</div> */}
+
 							</div>
+
 							<div className="tab-pane fade tabslider" id="technology2" role="tabpanel">
-								<div className="blog_technology_style2">
+								
+								{/* <div className="blog_technology_style2">
 									<div className="blog_row">
 										<div className="blog_bigbox">
 											<div className="blog_post_style2">
@@ -349,11 +357,13 @@ function Entertainments() {
 												</div>
 											</div>
 										</div>
-									</div>
-								</div>
+									</div>								
+								</div> */}
+
 							</div>
 							<div className="tab-pane fade tabslider" id="technology3" role="tabpanel">
-								<div className="blog_technology_style2">
+								
+								{/* <div className="blog_technology_style2">
 									<div className="blog_row">
 										<div className="blog_bigbox">
 											<div className="blog_post_style2">
@@ -456,10 +466,12 @@ function Entertainments() {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
+
 							</div>
 							<div className="tab-pane fade tabslider" id="technology4" role="tabpanel">
-								<div className="blog_technology_style2">
+								
+								{/* <div className="blog_technology_style2">
 									<div className="blog_row">
 										<div className="blog_bigbox">
 											<div className="blog_post_style2">
@@ -562,11 +574,14 @@ function Entertainments() {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
+
 							</div>
 						</div>
+
 						<div className="custom_tab_content">
-							<div id="tab13" className="tab fade">
+							
+							{/* <div id="tab13" className="tab fade">
 								<div className="blog_technology_style2">
 									<div className="blog_row">
 										<div className="blog_bigbox">
@@ -988,9 +1003,11 @@ function Entertainments() {
 											</div>
 										</div>
 									</div>
-								</div>
-							</div>
+								</div>							
+							</div> */}
+
 						</div>
+					
 					</div>
     )
     
