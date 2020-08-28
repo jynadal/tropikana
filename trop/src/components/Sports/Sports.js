@@ -44,7 +44,7 @@ function Sports() {
 													<img src="https://via.placeholder.com/580x555" className="img-fluid" alt="" /> 
 												</a> 
 												<div className="blog_post_slider_content"> 
-													<h2><a href="blog_single_fullwidth.html">Office Volunteers Needed To Answer The Phone And Help With Office Duties</a></h2>
+													<h2><a href="blog_single_fullwidth.html">Office 11111 Volunteers Needed To Answer The Phone And Help With Office Duties</a></h2>
 													<div className="blog_author_data"><a href="#"><img src="https://via.placeholder.com/34x34" className="img-fluid" alt="" width="34" height="34" /> John Doe</a></div> 
 													<ul className="blog_meta_tags">
 														<li><span className="blog_bg_blue"><svg xmlns="http://www.w3.org/2000/svg" width="12px" height="7px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M11.829,3.074 C11.732,2.948 9.422,-0.000 6.468,-0.000 C3.514,-0.000 1.203,2.948 1.106,3.074 C0.916,3.320 0.916,3.678 1.106,3.925 C1.203,4.050 3.514,6.999 6.468,6.999 C9.422,6.999 11.732,4.050 11.829,3.925 C12.020,3.678 12.020,3.320 11.829,3.074 ZM7.370,1.771 C7.569,1.651 7.846,1.788 7.989,2.077 C8.132,2.366 8.087,2.696 7.888,2.816 C7.689,2.936 7.412,2.799 7.269,2.510 C7.126,2.221 7.171,1.890 7.370,1.771 ZM6.468,5.930 C4.404,5.930 2.668,4.183 2.067,3.499 C2.473,3.037 3.397,2.091 4.589,1.525 C4.357,1.915 4.220,2.381 4.220,2.883 C4.220,4.251 5.227,5.360 6.468,5.360 C7.709,5.360 8.715,4.251 8.715,2.883 C8.715,2.381 8.579,1.915 8.346,1.525 C9.539,2.091 10.463,3.037 10.869,3.499 C10.268,4.184 8.531,5.930 6.468,5.930 Z"/></svg> 21K</span></li> 
@@ -59,7 +59,7 @@ function Sports() {
 													<img src="https://via.placeholder.com/580x555" className="img-fluid" alt="" /> 
 												</a> 
 												<div className="blog_post_slider_content"> 
-													<h2><a href="blog_single_fullwidth.html">Office Volunteers Needed To Answer The Phone And Help With Office Duties</a></h2>
+													<h2><a href="blog_single_fullwidth.html">Office 2222 Volunteers Needed To Answer The Phone And Help With Office Duties</a></h2>
 													<div className="blog_author_data"><a href="#"><img src="https://via.placeholder.com/34x34" className="img-fluid" alt="" width="34" height="34" /> John Doe</a></div> 
 													<ul className="blog_meta_tags">
 														<li><span className="blog_bg_blue"><svg xmlns="http://www.w3.org/2000/svg" width="12px" height="7px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M11.829,3.074 C11.732,2.948 9.422,-0.000 6.468,-0.000 C3.514,-0.000 1.203,2.948 1.106,3.074 C0.916,3.320 0.916,3.678 1.106,3.925 C1.203,4.050 3.514,6.999 6.468,6.999 C9.422,6.999 11.732,4.050 11.829,3.925 C12.020,3.678 12.020,3.320 11.829,3.074 ZM7.370,1.771 C7.569,1.651 7.846,1.788 7.989,2.077 C8.132,2.366 8.087,2.696 7.888,2.816 C7.689,2.936 7.412,2.799 7.269,2.510 C7.126,2.221 7.171,1.890 7.370,1.771 ZM6.468,5.930 C4.404,5.930 2.668,4.183 2.067,3.499 C2.473,3.037 3.397,2.091 4.589,1.525 C4.357,1.915 4.220,2.381 4.220,2.883 C4.220,4.251 5.227,5.360 6.468,5.360 C7.709,5.360 8.715,4.251 8.715,2.883 C8.715,2.381 8.579,1.915 8.346,1.525 C9.539,2.091 10.463,3.037 10.869,3.499 C10.268,4.184 8.531,5.930 6.468,5.930 Z"/></svg> 21K</span></li> 
@@ -69,6 +69,7 @@ function Sports() {
 											</div>
 										</div>
 									</div>
+
 									<div className="blog_row">
 										<div className="blog_col3">
 											<div className="blog_post_slider_wrapper"> 
@@ -133,9 +134,13 @@ function Sports() {
 									</div>
 								</div>
 							</div>
+
+
 							<div className="tab-pane fade tabslider" id="nav-crickets" role="tabpanel">
-								<div className="blog_sport_style2">
+
+								{/* <div className="blog_sport_style2">
 									<div className="blog_row">
+
 										<div className="blog_col6">
 											<div className="blog_post_slider_wrapper"> 
 												<a href="blog_single_fullwidth.html" className="blog_post_slider_img"> 
@@ -229,10 +234,12 @@ function Sports() {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
+
 							</div>
 							<div className="tab-pane fade tabslider" id="nav-football" role="tabpanel">
-								<div className="blog_sport_style2">
+
+								{/* <div className="blog_sport_style2">
 									<div className="blog_row">
 										<div className="blog_col6">
 											<div className="blog_post_slider_wrapper"> 
@@ -327,10 +334,12 @@ function Sports() {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
+
 							</div>
 							<div className="tab-pane fade tabslider" id="nav-wrestling" role="tabpanel">
-								<div className="blog_sport_style2">
+
+								{/* <div className="blog_sport_style2">
 									<div className="blog_row">
 										<div className="blog_col6">
 											<div className="blog_post_slider_wrapper"> 
@@ -425,10 +434,12 @@ function Sports() {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
+
 							</div>
 							<div className="tab-pane fade tabslider" id="nav-swimming" role="tabpanel">
-								<div className="blog_sport_style2">
+
+								{/* <div className="blog_sport_style2">
 									<div className="blog_row">
 										<div className="blog_col6">
 											<div className="blog_post_slider_wrapper"> 
@@ -523,10 +534,12 @@ function Sports() {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
+
 							</div>
 							<div className="tab-pane fade tabslider" id="nav-hockey" role="tabpanel">
-								<div className="blog_sport_style2">
+
+								{/* <div className="blog_sport_style2">
 									<div className="blog_row">
 										<div className="blog_col6">
 											<div className="blog_post_slider_wrapper"> 
@@ -621,11 +634,13 @@ function Sports() {
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> */}
+
 							</div>
 						</div>
 						<div className="custom_tab_content">
-							<div id="tab17" className="tab fade">
+
+							{/* <div id="tab17" className="tab fade">
 								<div className="blog_sport_style2">
 									<div className="blog_row">
 										<div className="blog_col6">
@@ -1017,7 +1032,8 @@ function Sports() {
 									</div>
 								</div>
 							</div>
-						</div>
+						 */}
+                        </div>
 					</div>
     )
     

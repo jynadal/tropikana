@@ -5,9 +5,6 @@ function BlogSlider() {
         <div className="swiper-container gallery-top">
 			<div className="swiper-wrapper">
 
-
-
-
 				<div className="swiper-slide">
 					<div className="blog_post_slider_wrapper"> 
 						<a href="blog_single_with_sidebar.html" className="blog_post_slider_img"> 
@@ -27,7 +24,8 @@ function BlogSlider() {
 					</div>
 				</div>
 
-				<div className="swiper-slide">
+				<div>
+				{/* <div className="swiper-slide">
 					<div className="blog_post_slider_wrapper"> 
 						<a href="blog_single_with_sidebar.html" className="blog_post_slider_img"> 
 							<img src="https://via.placeholder.com/1570x775" alt=" " /> 
@@ -158,9 +156,8 @@ function BlogSlider() {
 							<h6>next story</h6>							
 						</div> 
 					</div>
-				</div>
-
-
+				</div>*/}
+				 </div>
 
 			</div>
 

@@ -8,7 +8,7 @@ function BlogHLight() {
     <div className="blog_banner_slider wrapper">
 
             <BlogSlider />
-            {/* <BlogSwiper /> */}
+            <BlogSwiper />
     
 
 	</div>
