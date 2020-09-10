@@ -4,6 +4,7 @@ import { Header, BlogHLight, WorldNews, Entertainments, Musics, FoodHealth, Spor
 import styles from './App.module.css';
 import './AppStyles.css';
 import { fetchData } from './api';
+import { fetchMeteo } from './api';
 
 import coronaImage from './images/covidtracker2.png';
 
@@ -44,7 +45,9 @@ const App = ({handleCountryChange}) => {
         return (
             <div className={styles.container}>
                 {/* <img className={styles.image} src={coronaImage} alt="COVID-19" /> */}
-                <Header />
+                <Header 
+                //fetchMeteo={fetchMeteo}
+                />
 
                 <BlogHLight />
 

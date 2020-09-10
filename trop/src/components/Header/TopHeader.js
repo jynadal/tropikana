@@ -1,6 +1,52 @@
-import React, { Fragment } from 'react';
+import React, {useState, useEffect, Fragment } from 'react';
 
 function TopHeader() {
+
+
+    //export const fetchMeteo = async () => {
+
+    //    const  ip = await fetch('https://api.ipify.org?format=json')
+    //     .then(resultat => resultat.json())
+    //     .then(data => data.ip)
+    
+    //     const ville = await fetch('http://freegeoip.net/json/' + ip)
+    //     .then(resultat => resultat.json())
+    //     .then(data => data.city)
+    
+    //     const meteo = await fetch(`api.openweathermap.org/data/2.5/weather?q=${ville}&appid=3e467053e58aaaa078f19a3f553da25b`)
+    //         .then(resultat => resultat.json())
+    //         .then(data => data)
+    //         console.log(data)
+    
+    // const [ip, setIp] =useState([]);
+    // const [ville, setVille] =useState([]);
+    // const [meteo, setMeteo] =useState([]);
+
+    // useEffect(() => {
+    //     loadIp();
+    //     // return () => {
+    //     //     cleanup
+    //     // }
+    // }, [])
+
+    // const  loadIp = async () => {
+    //     await fetch('https://api.ipify.org?format=json')
+    //     .then(resultat => resultat.json())
+    //     .then(data => setIp(data));
+    // }
+    // console.log(ip);
+
+    // async function getTown () {
+    //     const api = `http://api.ipstack.com/88.123.150.11?access_key=285bd20d278ffb4f694652383c7cf950`;
+    //     //const api = `http://api.ipstack.com/${ip}?access_key=285bd20d278ffb4f694652383c7cf950`;
+    //     const ville = await fetch(api);
+    //     const getResult = await resultat.json();
+    //     setVille(getResult);
+    // console.log(getResult);
+    // }
+
+    // console.log(ip);
+    
 
     return(
         <Fragment>

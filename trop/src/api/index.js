@@ -5,6 +5,7 @@ import axios from 'axios';
 
 
 const urlIpify= 'https://api.ipify.org?format=json';
+const APIKEY = '3e467053e58aaaa078f19a3f553da25b';
 
 
 export const fetchMeteo = async () => {
@@ -17,7 +18,7 @@ export const fetchMeteo = async () => {
     .then(resultat => resultat.json())
     .then(data => data.city)
 
-    const meteo = await fetch(`api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}`)
+    const meteo = await fetch(`api.openweathermap.org/data/2.5/weather?q=${ville}&appid=3e467053e58aaaa078f19a3f553da25b`)
         .then(resultat => resultat.json())
         .then(data => data)
 
