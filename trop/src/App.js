@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Header, BlogHLight, WorldNews, Entertainments, Musics, FoodHealth, Sports, WorldTravels, SocialMedias, Footer, Cards, Chart, CountryPicker } from './components';
+import { Header, BlogHLight, WorldNews, Entertainments, Musics, FoodHealth, Sports, WorldTravels, SocialMedias, Footer } from './components';
 import styles from './App.module.css';
 import './AppStyles.css';
 import { fetchData } from './api';
 
-import coronaImage from './images/covidtracker2.png';
+//import coronaImage from './images/covidtracker2.png';
 
 
 class App extends React.Component {
@@ -57,12 +57,6 @@ class App extends React.Component {
 	            </div>
 
                 <SocialMedias />  
-
-
-
-                <Cards data= {data} />
-                <CountryPicker handleCountryChange={this.handleCountryChange}/>
-                <Chart data={data} country={country} /> 
 
                 < Footer />
                 
