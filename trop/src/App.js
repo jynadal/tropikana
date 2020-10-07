@@ -3,7 +3,7 @@ import React from 'react';
 import { Header, BlogHLight, WorldNews, Entertainments, Musics, FoodHealth, Sports, WorldTravels, SocialMedias, Footer } from './components';
 import styles from './App.module.css';
 import './AppStyles.css';
-import { fetchData } from './api';
+import { fetchMeteo } from './api';
 
 //import coronaImage from './images/covidtracker2.png';
 
@@ -33,7 +33,7 @@ class App extends React.Component {
         return (
             <div className={styles.container}>
                 {/* <img className={styles.image} src={coronaImage} alt="COVID-19" /> */}
-                <Header />
+                <Header fetchMeteo />
 
                 <BlogHLight />
 
