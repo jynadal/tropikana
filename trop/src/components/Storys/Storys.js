@@ -1,4 +1,6 @@
 import React from "react";
+//import "./StorysNew.module.css";
+import "./Storys.module.css";
 
 function WorldTravels() {
 
@@ -12,7 +14,7 @@ function WorldTravels() {
 							<img src="https://via.placeholder.com/301x460" className="img-fluid" alt="" />
 						</a> 
 						<div className="blog_post_slider_content"> 
-							<p><span className="blog_bg_orange"><a href="#" className="blog_category">World</a></span></p> 
+							<p><span className="blog_bg_orange"><a href="#" className="blog_category">WWWWWWWWWWorld</a></span></p> 
 							<div className="blog_post_slider_content_inner">
 								<h2><a href="blog_single_fullwidth.html">The Art of Hiring a Product Designer</a></h2>
 								<div className="blog_author_data"><a href="#"><img src="https://via.placeholder.com/34x34" className="img-fluid" alt="" width="34" height="34" /> John Doe</a></div> 

@@ -4,44 +4,45 @@ const url =  'https://api.ipify.org?format=json';
 const urlIp = 'https://freegeoip.app/json/';
 const urlTown = '';
 
-const fetchIp = async () => {
-    try {
-        const myIp = await fetch(url)
-            .then(response => response.json())
-            .then(data => {
-                const ip = json.ip;
-                console.log(ip);
-            });     
-    } catch (error) {
-        console.log(error);
-    }
-}
 
-const fetchTown = async (ip) => {
-    try {
-        const myIp = await fetch(`${urlIp}/${ip}`)
-            .then(response => response.json())
-            .then(data => {
-                const town = json.ville;
-                console.log(ville);
-            });     
-    } catch (error) {
-        console.log(error);
-    }
-}
+// const fetchIp = async () => {
+//     try {
+//         const myIp = await fetch(url)
+//             .then(response => response.json())
+//             .then(data => {
+//                 const ip = json.ip;
+//                 console.log(ip);
+//             });     
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
-export const fetchMeteo = async (ville) => {
-    try {
-        const myIp = await fetch(`${urlMeteo}/${ville}`)
-            .then(response => response.json())
-            .then(data => {
-                const town = json.meteo;
-                console.log(meteo);
-            });     
-    } catch (error) {
-        console.log(error);
-    }
-}
+// const fetchTown = async (ip) => {
+//     try {
+//         const myIp = await fetch(`${urlIp}/${ip}`)
+//             .then(response => response.json())
+//             .then(data => {
+//                 const town = json.ville;
+//                 console.log(ville);
+//             });     
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+
+// export const fetchMeteo = async (ville) => {
+//     try {
+//         const myIp = await fetch(`${urlMeteo}/${ville}`)
+//             .then(response => response.json())
+//             .then(data => {
+//                 const town = json.meteo;
+//                 console.log(meteo);
+//             });     
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
 
 

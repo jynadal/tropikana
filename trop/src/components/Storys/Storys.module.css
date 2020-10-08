@@ -1,0 +1,275 @@
+/*===Travel Section Start===*/
+.blog_banner_slider.wrapper.banner_style2 .blog_banner_slider_left_vertical .blog_post_slider_wrapper .blog_post_slider_content p span, .blog_banner_slider.wrapper.banner_style2 .blog_banner_slider_right_vertical .blog_post_slider_wrapper .blog_post_slider_content p span, .blog_fullwidth_multislide_slider .blog_post_slider_wrapper .blog_post_slider_content p span  {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    min-width: 80px;
+    margin-right: 0;
+    line-height: 22px;
+    border-radius: 10px 0;
+    padding: 4px 16px;
+}
+
+.blog_fullwidth_multislide_slider {
+	margin-bottom:60px;
+}
+.blog_fullwidth_multislide_slider .blog_post_slider_wrapper .blog_post_slider_content {
+    left: 20px;
+    bottom: auto;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    top: 20px;
+}
+.blog_fullwidth_multislide_slider .blog_post_slider_wrapper .blog_post_slider_content .blog_post_slider_content_inner {
+    position: absolute;
+    bottom: 0px;
+}
+.blog_fullwidth_multislide_slider .blog_post_slider_wrapper .blog_post_slider_content .blog_post_slider_content_inner h2 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    font-weight: 600; 
+}
+.blog_fullwidth_multislide_slider .blog_post_slider_wrapper .blog_post_slider_content .blog_post_slider_content_inner ul.blog_meta_tags li a, .blog_fullwidth_multislide_slider .blog_post_slider_wrapper .blog_post_slider_content .blog_post_slider_content_inner .blog_author_data a{
+	color:#fff
+}
+.blog_fullwidth_multislide_slider .blog_post_slider_wrapper .blog_post_slider_img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 42%, rgba(0, 0, 0, 0.9) 100%);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 42%, rgba(0, 0, 0, 0.9) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 42%, rgba(0, 0, 0, 0.9) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 42%, rgba(0, 0, 0, 0.9) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 42%, rgba(0, 0, 0, 0.9) 100%);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.blog_fullwidth_multislide_slider .blog_post_slider_wrapper:hover .blog_post_slider_img:after{
+	background-image:none;
+}
+.blog_fullwidth_multislide_slider img{
+    width: 100%;
+}
+
+.blog_fullwidth_multislide_slider .bx-wrapper {
+    margin-bottom: 54px;
+}
+
+.blog_fullwidth_multislide_slider .blog_post_slider_wrapper .blog_post_slider_content p span  {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    min-width: 80px;
+    margin-right: 0;
+    line-height: 22px;
+    border-radius: 10px 0;
+    padding: 4px 16px;
+}
+
+
+.blog_main_heading_div nav.blog_tab_nav.blog_color_lightgreen a:hover, .blog_main_heading_div nav.blog_tab_nav.blog_color_lightgreen a.active {
+    color: #00958c;
+}
+.blog_travel.blog_topheading_slider_nav .travel-swiper-button-next, .blog_travel.blog_topheading_slider_nav .travel-swiper-button-prev {
+    top: -55px;
+    background-image: none;
+    left: auto;
+    right: 40px;
+    width: 8px;
+    height: 13px;
+    margin: 0;
+    position: absolute;
+    cursor: pointer;
+}
+.blog_travel.blog_topheading_slider_nav .travel-swiper-button-next svg, .blog_travel.blog_topheading_slider_nav .travel-swiper-button-prev svg{
+	display:flex;
+}
+.blog_travel.blog_topheading_slider_nav .travel-swiper-button-prev {
+    right: 55px;
+}
+.blog_travel.blog_topheading_slider_nav .swiper-button-disabled {
+    opacity: 0.35;
+    cursor: auto;
+    pointer-events: none;
+}
+.blog_travel.blog_topheading_slider_nav .travel-swiper-button-next:hover svg path, .blog_travel.blog_topheading_slider_nav .travel-swiper-button-prev:hover svg path {
+    fill: #00958c;
+}
+.blog_travel_slider {
+    display: flex;
+    width: 100%;
+    padding: 20px 0px 40px;
+    position: relative;
+}
+
+
+
+
+.swiper-container {
+    margin: 0;
+    margin-right: 20px;
+}
+.swiper-container {
+    overflow: visible;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog_topheading_slider_nav .swiper-container .swiper-button-prev {
+    left: auto;
+    right: 55px;
+}
+.blog_topheading_slider_nav .swiper-container .swiper-button-next svg, .blog_topheading_slider_nav .swiper-container .swiper-button-prev svg {
+    display: flex;
+}
+.blog_topheading_slider_nav .blog_world_news_slider .swiper-container .worldnews-swiper-button-next:hover svg path, .blog_topheading_slider_nav .blog_world_news_slider .swiper-container .worldnews-swiper-button-prev:hover svg path{
+	fill:#fa9324;
+}
+.blog_sport_slider .swiper-container {
+    overflow: visible;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog_sport_slider .swiper-container .swiper-slide {
+    text-align: center;
+    height: auto;
+}
+.blog_topheading_slider_nav .blog_sport_slider .swiper-container .sport-swiper-button-next:hover svg path, .blog_topheading_slider_nav .blog_sport_slider .swiper-container .sport-swiper-button-prev:hover svg path {
+    fill: #248efa;
+}
+.blog_topheading_slider_nav .blog_sport_slider .swiper-container .sport-swiper-button-next:hover svg path, .blog_topheading_slider_nav .blog_sport_slider .swiper-container .sport-swiper-button-prev:hover svg path {
+    fill: #248efa;
+}
+.blog_banner_slider.wrapper.banner_style2 .blog_banner_slider_left_vertical .swiper-container .swiper-slide, .blog_banner_slider.wrapper.banner_style2 .blog_banner_slider_right_vertical .swiper-container .swiper-slide {
+    height: 272px; 
+}
+.blog_sport_slider .swiper-container .swiper-slide {
+    text-align: center;
+    height: auto;
+}
+.blog_banner_slider .swiper-container .swiper-slide .blog_post_slider_wrapper{
+    height: 100%;
+}
+
+
+
+
+.blog_banner_slider .swiper-container.gallery-thumbs .swiper-slide .blog_post_slider_wrapper .blog_post_slider_img{
+	display:inline-block;
+}
+.blog_banner_slider .swiper-container.gallery-thumbs .swiper-slide, .blog_banner_slider .swiper-container.gallery-thumbs .swiper-slide .blog_post_slider_wrapper .blog_post_slider_img img {
+    height: 200px;
+     width: 100%;
+}
+.blog_banner_slider .swiper-container.gallery-thumbs .swiper-slide, .blog_banner_slider .swiper-container.gallery-thumbs .swiper-slide .blog_post_slider_wrapper .blog_post_slider_img img {
+    height: 165px;
+}
+.blog_banner_slider .swiper-container.gallery-thumbs .swiper-slide .blog_post_slider_wrapper .blog_post_slider_img{
+	display:inline-block;
+}
+.blog_banner_slider .swiper-container.gallery-top .swiper-slide .blog_post_slider_wrapper .blog_author_data{
+	margin-right:25px;
+}
+.blog_banner_slider .swiper-container.gallery-thumbs .swiper-slide, .blog_banner_slider .swiper-container.gallery-thumbs .swiper-slide .blog_post_slider_wrapper .blog_post_slider_img img {
+    height: 110px;
+}
+.blog_banner_slider .swiper-container .swiper-slide .blog_post_slider_wrapper{
+    height: 100%;
+}
+
+
+
+
+
+.blog_travel_slider .swiper-container {
+    overflow: visible;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog_travel_slider .swiper-slide {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+/* .blog_topheading_slider_nav .tab-content .swiper-slide, .tab-content .swiper-wrapper { */
+    /* height: auto; */
+/* } */
+.blog_col_6 {
+    flex: 50%;
+    margin-right: 20px;
+}
+.blog_col_4 {
+    flex: 33.33%;
+    margin-right: 20px;
+}
+.blog_travel_slider .swiper-slide .blog_col_6:last-child, .blog_travel_slider .swiper-slide .blog_col_4:last-child {
+    margin-right: 0;
+}
+.blog_travel_slider .blog_post_slider_wrapper {
+    margin-bottom: 20px;
+}
+.blog_travel_slider .blog_col_6 .blog_post_slider_wrapper .blog_post_slider_content {
+    width: calc(100% - 30px);
+    left: 20px;
+    bottom: 20px;
+}
+.blog_travel_slider .blog_col_4 .blog_post_slider_wrapper .blog_post_slider_content {
+    bottom: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+}
+.blog_travel_slider .blog_post_slider_wrapper .blog_post_slider_content h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+	font-weight: 600;
+}
+/*.blog_travel_slider .blog_post_slider_wrapper .blog_post_slider_content h2 a:hover {
+    color: #00958c;
+}*/
+.blog_travel_slider .blog_post_slider_wrapper .blog_post_slider_content ul.blog_meta_tags li a, .blog_travel_slider .blog_post_slider_wrapper .blog_post_slider_content .blog_author_data a {
+    color: #fff;
+}
+.blog_travel_slider .blog_col_4 .blog_post_slider_wrapper .blog_post_slider_content h2 {
+    font-size: 16px;
+    line-height: 24px;
+}
+.blog_travel_slider .blog_col_4 .blog_post_slider_wrapper .blog_post_slider_content ul.blog_meta_tags li {
+    margin-right: 10px;
+}
+.blog_travel_slider .blog_col_4 .blog_post_slider_wrapper .blog_post_slider_content ul.blog_meta_tags li a {
+    font-size: 14px;
+}
+.blog_travel_slider .blog_col_4 .blog_post_slider_wrapper .blog_post_slider_content ul.blog_meta_tags li span{
+    padding: 1px 5px;
+}
+.blog_travel_slider .blog_post_slider_wrapper .blog_post_slider_img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.9) 100%);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+/*===Travel Section End===*/

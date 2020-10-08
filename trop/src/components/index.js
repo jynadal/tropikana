@@ -1,7 +1,7 @@
 export {default as Header} from "./Header/Header"; 
 export {default as BlogHLight} from "./BlogHLight/BlogHLight"; 
 export {default as WorldNews} from "./WorldNews/WorldNews";
-export {default as WorldTravels} from "./WorldTravels/WorldTravels"; 
+export {default as Storys} from "./Storys/Storys"; 
 export {default as Musics} from "./Musics/Musics";
 
 //export {default as FoodHealth} from "./FoodHealth/FoodHealth"; 

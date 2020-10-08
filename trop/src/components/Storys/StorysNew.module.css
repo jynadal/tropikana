@@ -1,0 +1,14 @@
+.blog_fullwidth_multislide_slider {
+    display: "block";
+    width: 100%;
+}
+.blog_post_slider_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+
+}
+.blog_post_slider_wrapper img{
+    position: absolute;
+    width:250px;
+}
