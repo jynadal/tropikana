@@ -637,6 +637,7 @@ function Sports() {
 								</div> */}
 
 							</div>
+<<<<<<< HEAD
 						</div>
 						<div className="custom_tab_content">
 
@@ -1034,6 +1035,10 @@ function Sports() {
 							</div>
 						 */}
                         </div>
+=======
+						</div>						
+					
+>>>>>>> MapChart
 					</div>
     )
     

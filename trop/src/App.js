@@ -1,68 +1,48 @@
 import React, { useEffect, useState } from 'react';
 
-import { Header, BlogHLight, WorldNews, Entertainments, Musics, FoodHealth, Sports, WorldTravels, SocialMedias, Footer, Cards, Chart, CountryPicker } from './components';
+import { Header, BlogHLight, WorldNews, Entertainments, Musics, FoodHealth, Sports, Storys, SocialMedias, Footer } from './components';
 import styles from './App.module.css';
-import './AppStyles.css';
-import { fetchData } from './api';
+// import './AppStyles.css';
 import { fetchMeteo } from './api';
 
-import coronaImage from './images/covidtracker2.png';
-
-//data, 
-const App = ({handleCountryChange}) => {
-    const [data, setData] = useState({})
-    const [fetchCountries, setFetchCountries] = useState([]);
-    const [country, setCountry] = useState('');
-
-  
-    async function fetchData() {
-        const res = await fetch('url');
-        res
-            .json()
-            .then(res => setData(data));
-        }
-
-        useEffect(() =>{
-        fetchData();
-
-    });
+//import coronaImage from './images/covidtracker2.png';
 
 
-//    componentDidMount() {
-//         const fetchedData = await fetchData();
+class App extends React.Component {
 
-//         this.setState({data: fetchedData});
-//     }
+    // state = {
+    //     data: {},
+    //     country: '',
+        
+    // }
 
-    handleCountryChange = async (countries) => {
-        const fetchedData = await fetchData(country);
+    // async componentDidMount() {
+    //     const fetchedData = await fetchData();
 
-        this.setState({data: fetchedData, country: country});
-    }
+    //     this.setState({data: fetchedData});
+    // }
 
-       // const {data, country} = data.state;
+    // handleCountryChange = async (country) => {
+    //     const fetchedData = await fetchData(country);
+
+    //     this.setState({data: fetchedData, country: country});
+    // }
+
+    render() {
+
+        // const {data, country} = this.state;
         
         return (
             <div className={styles.container}>
                 {/* <img className={styles.image} src={coronaImage} alt="COVID-19" /> */}
-                <Header 
-                //fetchMeteo={fetchMeteo}
-                />
-
+                <Header fetchMeteo />
                 <BlogHLight />
 
-                <div className="blog_main_wrapper blog_toppadder60">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <WorldNews />
-                            <WorldTravels />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <WorldNews />
 
-                <Musics />        
+                <Storys />
+                {/* <Musics /> */}
+                
 
                 <div className="blog_main_wrapper blog_bottompadder40">
 		            <div className="container">
@@ -80,15 +60,12 @@ const App = ({handleCountryChange}) => {
 
                 <SocialMedias />  
 
-                <Cards data= {data} />
-                <CountryPicker handleCountryChange={this.handleCountryChange}/>
-                <Chart data={data} country={country} /> 
-
                 < Footer />
                 
                           
             </div>
         )
     }
+}
 
 export default App;

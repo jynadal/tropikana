@@ -578,6 +578,7 @@ function Entertainments() {
 
 							</div>
 						</div>
+<<<<<<< HEAD
 
 						<div className="custom_tab_content">
 							
@@ -1008,6 +1009,9 @@ function Entertainments() {
 
 						</div>
 					
+=======
+											
+>>>>>>> MapChart
 					</div>
     )
     
