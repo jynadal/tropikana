@@ -1,38 +1,8 @@
 import React, {useState, useEffect } from 'react';
-<<<<<<< HEAD
-
-
-import axios from 'axios';
-
-
-const urlIpify= 'https://api.ipify.org?format=json';
-const APIKEY = '3e467053e58aaaa078f19a3f553da25b';
-
-
-export const fetchMeteo = async () => {
-
-    const ip = await fetch('https://api.ipify.org?format=json')
-    .then(resultat => resultat.json())
-    .then(data => data.ip)
-
-    const ville = await fetch('http://freegeoip.net/json/' + ip)
-    .then(resultat => resultat.json())
-    .then(data => data.city)
-
-    const meteo = await fetch(`api.openweathermap.org/data/2.5/weather?q=${ville}&appid=3e467053e58aaaa078f19a3f553da25b`)
-        .then(resultat => resultat.json())
-        .then(data => data)
-
-}
-
-
-const url =  'https://covid19.mathdro.id/api';
-=======
 
 const url =  'https://api.ipify.org?format=json';
 const urlIp = 'https://freegeoip.app/json/';
 const urlTown = '';
->>>>>>> MapChart
 
 
 // const fetchIp = async () => {
