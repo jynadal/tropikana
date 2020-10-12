@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-//import { Form } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 
 function MainHeader() {
 
@@ -56,13 +56,13 @@ function MainHeader() {
                             <div  className="blog_search_popup">
 								<a  className="search_close"></a>
 
-								{/* <Form.Group controlId="formBasicEmail">
+								<Form.Group controlId="formBasicEmail">
 									<Form.Label>Email address</Form.Label>
 									<Form.Control type="email" placeholder="Enter email" />
 									<Form.Text className="text-muted">
 									We'll never share your email with anyone else.
 									</Form.Text>
-								</Form.Group> */}
+								</Form.Group>
 
                                 {/* <Form  className="form-inline">
                                     <h3>Input Your Search Keywords And Press Enter</h3>
